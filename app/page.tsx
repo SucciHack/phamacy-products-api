@@ -64,14 +64,11 @@ export default function PharmacyApiDocs() {
             description="Add a new pharmaceutical to the inventory."
             requestExample={`
 {
-            "id": "679b70ac5ca317ec10082190",
             "productName": "Pain Killers",
             "price": 1200,
             "quantity": 10,
             "color": "Blue",
             "image": "https://utfs.io/f/GKUQqZhApnODxfSQniaSnGAqLOCl3iue41UwZrpV2cRt8B5Y",
-            "createdAt": "2025-01-30T12:29:32.567Z",
-            "updatedAt": "2025-01-30T12:29:32.567Z"
         }`}
             responseExample={`
 {
