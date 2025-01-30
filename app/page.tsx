@@ -38,9 +38,9 @@ export default function PharmacyApiDocs() {
             "image": "https://utfs.io/f/GKUQqZhApnODxfSQniaSnGAqLOCl3iue41UwZrpV2cRt8B5Y",
             "createdAt": "2025-01-30T12:29:32.567Z",
             "updatedAt": "2025-01-30T12:29:32.567Z"
-    }
-]
-        }`}
+        }
+      ]
+  }`}
           />
           <ApiEndpoint
             title="Get Pharmaceutical by ID"
@@ -48,7 +48,7 @@ export default function PharmacyApiDocs() {
             endpoint="https://phamacy-products-api.vercel.app/:id"
             description="Retrieve details of a specific pharmaceutical by its ID."
             responseExample={`
-{
+        {
             "id": "679b70ac5ca317ec10082190",
             "productName": "Pain Killers",
             "price": 1200,
@@ -65,7 +65,7 @@ export default function PharmacyApiDocs() {
             endpoint="https://phamacy-products-api.vercel.app/api/v1/products"
             description="Add a new pharmaceutical to the inventory."
             requestExample={`
-{
+        {
             "productName": "Pain Killers",
             "price": 1200,
             "quantity": 10,
@@ -73,7 +73,7 @@ export default function PharmacyApiDocs() {
             "image": "https://utfs.io/f/GKUQqZhApnODxfSQniaSnGAqLOCl3iue41UwZrpV2cRt8B5Y",
         }`}
             responseExample={`
-{
+        {
             "id": "679b70ac5ca317ec10082190",
             "productName": "Pain Killers",
             "price": 1200,
