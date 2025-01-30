@@ -3,6 +3,7 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Badge } from "@/components/ui/badge"
 import { Pill, Info, Code, FileJson } from "lucide-react"
+import Link from "next/link"
 
 export default function PharmacyApiDocs() {
   return (
@@ -184,7 +185,8 @@ function Footer() {
   return (
     <footer className="bg-gradient-to-r from-pharma-700 to-pharma-800 text-white py-6 mt-12">
       <div className="container mx-auto px-4 text-center">
-        <p>&copy; 2023 Pharmacy API. All rights reserved.</p>
+        <p>&copy; 2025 Pharmacy API. All rights reserved.</p>
+        <p className="text-sm text-white">Crafted by <Link href='https://github.com/SucciHack?tab=repositories' className="underline">Kaweesi Samuel</Link> | Fullstack Developer</p>
         <p className="mt-2 text-pharma-200">Empowering healthcare through technology</p>
       </div>
     </footer>
