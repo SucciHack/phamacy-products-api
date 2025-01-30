@@ -15,7 +15,7 @@ export type RegisterInputProps = {
     image:string
 };
 export default function RegisterV1() {
-    const initialImage = "/imgPlaceholder.jpg";
+    const initialImage = "/placeholder.png";
     const [imageUrl, setImageUrl] = useState(initialImage);
     const [isLoading, setIsLoading] = useState(false);
     const {
@@ -52,8 +52,8 @@ export default function RegisterV1() {
     }
   }
   return (
-    <div className="w-full lg:grid h-screen lg:min-h-[600px] lg:grid-cols-2 relative ">
-      <div className="flex items-center justify-center py-12">
+    <div className="w-full lg:grid h-screen lg:min-h-[600px] lg:grid-cols-2 relative">
+      <div className="flex items-center justify-center py-12 overflow-y-scroll pt-48 scrollbar-hide">
         <div className="mx-auto grid w-[350px] gap-6">
           <div className="grid gap-2 text-center">
             <h1 className="text-3xl font-bold">Create an Product</h1>

@@ -24,7 +24,7 @@ return (
     <div className="grid gap-2">
       <Image
         alt={title}
-        className="h-40 md:h-[10px] w-full rounded-md object-cover"
+        className="h-44 w-full rounded-md object-cover"
         height="300"
         src={imageUrl}
         width="300"

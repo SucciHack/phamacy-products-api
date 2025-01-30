@@ -64,5 +64,5 @@ export default withUt({
   	}
   },
   // eslint-disable-next-line @typescript-eslint/no-require-imports
-  plugins: [require("tailwindcss-animate"),require("@tailwindcss/forms")],
+  plugins: [require("tailwindcss-animate"),require("@tailwindcss/forms"),require('tailwind-scrollbar-hide')],
 });
