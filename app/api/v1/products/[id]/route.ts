@@ -2,7 +2,7 @@ import { db } from "@/prisma/db";
 import { NextRequest, NextResponse } from "next/server";
 
 //GET SINGLE PRODUCT
-export async function GET(request:NextRequest,{params}:{params:{id:string}}) {
+export async function GET(request:NextRequest,{params}:{params:Promise<{id:string}>}) {
     const {id} = await params
     try {
         const singleProduct = await db.products.findUnique({
