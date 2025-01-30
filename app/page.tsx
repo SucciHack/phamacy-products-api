@@ -17,8 +17,9 @@ export default function PharmacyApiDocs() {
             endpoint="https://phamacy-products-api.vercel.app/api/v1/products"
             description="Retrieve a list of all available pharmaceuticals."
             responseExample={`
-[
   {
+    "data":[
+        {
             "id": "679b70645ca317ec1008218f",
             "productName": "Microscope",
             "price": 900,
@@ -37,8 +38,9 @@ export default function PharmacyApiDocs() {
             "image": "https://utfs.io/f/GKUQqZhApnODxfSQniaSnGAqLOCl3iue41UwZrpV2cRt8B5Y",
             "createdAt": "2025-01-30T12:29:32.567Z",
             "updatedAt": "2025-01-30T12:29:32.567Z"
-        }
-]`}
+    }
+]
+        }`}
           />
           <ApiEndpoint
             title="Get Pharmaceutical by ID"
